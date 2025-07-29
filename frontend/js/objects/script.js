@@ -1,8 +1,28 @@
-/* In short, value is Anil or Subodh and refrence is variable address.
+/* To understand roughly, value is Anil or Subodh and refrence is variable address.
+
 primitive types checks the value and non-primitive type checks the reference.
+
 In primitve types, if the variable address(reference) is different but the value is same then it will give true result like == true and also === true.
+
+for eg: 
+
+const name1 = "Subodh"
+const name2 = "Su" + "bodh"
+
+The above 2 variables will be assigned different variable address but the value will be same like: Subodh | So, it will produce output: true, because it checks the value like: "Subodh" and, hence called "Value types"
+
 But in reference types, variable address(refrence) is checked, so if the variable address(reference) is different, then it will give the result false instead of value being same, like == false and also === false.
+
+Here, for eg:
+
+const obj1 = {}
+const obj2 = {}
+
+The above 2 variables will be assigned different variable address so, it will produce output: false, because it checks the reference (variable address) and, hence called "Reference types"
+
 */
+
+// ---------------------------------------------------------------------------------------------------------------
 
 const myName = "Anil";
 
