@@ -1,0 +1,205 @@
+/*
+
+There are two Categories of Images:-
+
+    1. Raster Image: taken/clicked by Camera - Export this in .png format
+    2. Vector Image: Image formed by drawing pixels - Export this is .svg format
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+3 Ways to write CSS:-
+
+    1. Inline CSS
+    2. Internal CSS
+    3. External CSS
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+CSS Font Properties:-
+
+    1. font-size
+    2. font-weight
+    3. font-family
+    4. color
+    5. text-decoration: none, underline, wavy
+    6. text-align: center
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+CSS Selectors:-
+
+    1. Universal (*)
+    2. Element (h1)
+    3. Class (.)
+    4. Id (#)
+    5. Attribute ([])
+    6. Pseudo (h1:hover)
+    7. Combinator (div p)
+    8. Grouping (h2, p, div)
+    9. Descendent (div > p)
+    and so on...
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Cascade, Specificity, and Inheritance:-
+
+Cascade:-
+
+    -> Bottom rule of same selector will apply
+
+Specificity:-
+
+    -> Same as css selectors,
+    -> Specificity of Internal CSS and External CSS will be determined by whichever comes first.
+
+Inheritance:-
+
+-> Font related properties are inherited from body or parent to their child in most cases but not all.
+For  eg:-
+
+    font-size
+    font-weight
+    font-family
+    color
+    background-color
+
+
+-> <input> and <button> will not inherit, we have to write inherit; then only it will work
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+CSS Box Model:-
+
+    width: max-width
+    height: min-height
+
+    padding
+    border: 16px solid green; (If no color is assigned in place of green then it will take the color of its font.)
+    margin
+
+    overflow: hidden, visible(This is defaulat value, so we don't have to assign this), scroll
+
+    * width in % calculates from its parent's width
+    * height in % works same as width but parent's height should be in pixel
+
+    box-sizing: content-box; (default)
+    box-sizing: border-box;
+
+    outline: 16px solid green; (doesn't affect the height and width of the image)
+
+    bordre-radius: 8px;
+
+*********************
+
+CSS Box Model with Inline Elements:-
+
+In box model, inline elments works left and right.
+
+    padding: left and right
+    border: left and right
+    margin: left and right
+
+*** To check:- Apply these properties on <span> and see if it works or not
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+1. display: inline;
+2. display: inline-block; (Remains inline meaning it will not cover the whole width of the viewport but now we can apply width and height and it will work same as block level element.)
+
+-> We generally don't use the above two property much.
+
+3. display: block; (This property is widely used.)
+4. display: none; (This property is also widely used.) -This works as hidden applid on element behind the scenes.
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Inline Element: 1.non-replaced 2.replaced 
+
+1. non-replaced:-
+
+    <span>
+    <a>
+    <b>
+    <i>
+    <stron>
+    <em>
+
+2. replaced:-
+
+-> contents replaced with outside data in this type of elements
+-> width, height, padding, border, margin -> works same as block elements
+
+    <img>
+    <video>
+    <iframe> (embed yt video, we have assign both width and height)
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+CSS Units:- 
+    1.px 
+    2.% 
+    3.vw 
+    4.vh 
+    5.em 
+    6.rem
+
+-> width: width in % calculates from its parent's width
+-> height: height in % works same as width but parent's height should be in pixel
+-> padding: padding in % calculates its value from the width of its parent
+-> margin: works same as padding
+-> border: % does not work with border
+
+** We usually avoid setting padding and margin in % **
+
+-> font-size: font-size in % calculates its value from the font-size of its parent
+
+*****************************
+
+-> vw and vh perfectly works with: 
+
+    1. width
+    2. height
+    3. padding
+    4. border
+    5. margin
+    6. font-size
+
+
+** Normally/ Generally/ Usually, We do not set 'font-size' in 'vw' and 'vh' though it works **
+
+em -> related to parent
+rem -> related to root/html
+
+## padding in em is being used when we create buttons. ##
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+CSS Positions:-
+
+    1. static (default)
+    2. relative
+    3. absolute
+    4. fixed (viewport)
+    5. sticky
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Properties related to Animation:-
+
+    1. Transform
+    2. Translate
+    3. Transition
+    4. Shadow
+    5. Opacity
+    6. Alpha-Channel
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Flexbox
+Media Queries
+Z-Index
+Float
+Grid
+CSS Variables
+
+*/
