@@ -1,0 +1,19 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: cursive;
+}
+
+/*
+
+Ways to Hide Element:
+
+    1. hidden attribute on element
+    2. display: none;
+    3. visibility: hidden;
+    4. opacity: 0; (opacity makes the whole content invisible that is inside it while alpha-channel makes only the color invisible.)
+    5. pointer-events: none;
+
+-> Check if we can select the element or not by applying these properties one by one and in pair also.
+
+*/
