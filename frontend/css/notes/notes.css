@@ -3,7 +3,7 @@
 There are two Categories of Images:-
 
     1. Raster Image: taken/clicked by Camera - Export this in .png format
-    2. Vector Image: Image formed by drawing pixels - Export this is .svg format
+    2. Vector Image: Image formed by drawing pixels - Export this in .svg format
 
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -23,6 +23,7 @@ CSS Font Properties:-
     4. color
     5. text-decoration: none, underline, wavy
     6. text-align: center
+    7. text-shadow:
 
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -51,6 +52,7 @@ Specificity:-
 
     -> Same as css selectors,
     -> Specificity of Internal CSS and External CSS will be determined by whichever comes first.
+    -> Code runs line by line so whichever line of code comes first will be applied and also will get modified by the line of code that comes after.
 
 Inheritance:-
 
@@ -111,6 +113,18 @@ In box model, inline elments works left and right.
 3. display: block; (This property is widely used.)
 4. display: none; (This property is also widely used.) -This works as hidden applid on element behind the scenes.
 
+--------------------------------------
+
+Ways to Hide Element:
+
+    1. hidden attribute on element
+    2. display: none;
+    3. visibility: hidden;
+    4. opacity: 0; (opacity makes the whole content invisible that is inside it while alpha-channel makes only the color invisible.)
+    5. pointer-events: none;
+
+    -> Check if we can select the element or not by applying these properties one by one and in pair also.
+    
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 Inline Element: 1.non-replaced 2.replaced 
@@ -198,7 +212,7 @@ Properties related to Animation:-
 Flexbox
 Media Queries
 Z-Index
-Float
+Float - float is replaced by flexbox. And in some case, position is also replaced by flexbox.
 Grid
 CSS Variables
 
