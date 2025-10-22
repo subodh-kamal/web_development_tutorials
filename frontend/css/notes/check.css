@@ -1,6 +1,19 @@
 span {
-    background-color: greenyellow;
-    width: 500px;
-    height: 500px;
-    display: inline-block;
+  background-color: greenyellow;
+  width: 500px;
+  height: 500px;
+  display: inline-block;
+}
+
+.one {
+    background-color: red;
+    width: 100px;
+    padding: 10px;
+}
+
+.two {
+  box-sizing: border-box;
+  background-color: gray;
+  width: 100px;
+  padding: 10px;
 }
