@@ -34,7 +34,7 @@ product,
 exports.sum = sum;
 exports.product = product;
 
-// console.log(module.exports === exports); // Output: true
+console.log("line no. 37 :", module.exports === exports); // Output: true
 
 /* This is behind the scenes:
 

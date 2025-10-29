@@ -9,8 +9,8 @@ console.log(product(1, 2, 3, 4));
 
 // console.log(sum);
 
-/*
- // This section of code is for understanding purpose only.
+
+ // This section of code is for learning purpose only.
 const user = {
   name: "Subodh Kamal",
   age: 27,
@@ -21,17 +21,17 @@ const user = {
   hobbies: ["Travelling", "Coding", "Exploring"],
 };
 
-Note: module is equivalent to user object and exports is equivalent to address object that is below.
+// Note: module is equivalent to user object and exports is equivalent to address object that is below.
 
 let address = user.address;
 
 console.log(user.address === address); // Output: true
 
-// address.pincode = 2327327;
-// address.country = "Nepal";
+address.pincode = 2327327;
+address.country = "Nepal";
 
-// console.log(address);
-// console.log(user.address);
+console.log(address);
+console.log(user.address);
 
 address = {
   pincode: 2327327,
@@ -40,4 +40,3 @@ address = {
 
 console.log(address);
 console.log(user.address);
-*/
