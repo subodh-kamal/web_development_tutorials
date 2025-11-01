@@ -10,6 +10,11 @@ function product(...nums) {
 // module.exports = sum;
 // module.exports = product;
 
+// Why is the below two lines of code are not working?
+
+// exports = sum;
+// exports = product;
+
 /* 2 */
 /* module.exports = {
   sum,
@@ -17,7 +22,7 @@ function product(...nums) {
 }; */
 
 /* 
-// This code will not work because after = we are creating a new object here and adding some new properties while the main object was module.exports which is still empty as we haven't added anything there.
+// This code will not work because after = we are creating a new object {} here and adding some new properties while the main object was module.exports which is still empty as we haven't added anything there.
 
 exports = {
 sum,
@@ -31,10 +36,10 @@ product,
 // module.exports.product = product;
 
 /* 4 */
-exports.sum = sum;
-exports.product = product;
+// exports.sum = sum;
+// exports.product = product;
 
-console.log("line no. 37 :", module.exports === exports); // Output: true
+// console.log("line no. 37 :", module.exports === exports); // Output: true
 
 /* This is behind the scenes:
 

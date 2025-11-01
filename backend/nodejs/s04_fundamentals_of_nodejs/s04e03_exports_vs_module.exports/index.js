@@ -1,6 +1,9 @@
 // console.log(typeof require); // output: function
 
-const { sum, product } = require("./math");
+// const { sum, product } = require("./math");
+
+const sum = require("./math")
+const product = require("./math")
 
 console.log(sum(1, 2, 3, 4));
 console.log(product(1, 2, 3, 4));
@@ -9,8 +12,7 @@ console.log(product(1, 2, 3, 4));
 
 // console.log(sum);
 
-
- // This section of code is for learning purpose only.
+ // This section of code is for understanding purpose only.
 const user = {
   name: "Subodh Kamal",
   age: 27,
@@ -25,18 +27,22 @@ const user = {
 
 let address = user.address;
 
-console.log(user.address === address); // Output: true
+console.log(user.address === address); // Output: true   Because we are not creating a new object here. If we create a new object here then it will generate 'false' output here.
 
 address.pincode = 2327327;
 address.country = "Nepal";
 
+/* // The below two lines of code will work same as above two lines of code.
+user.address.pincode = 2327327;
+user.address.country = "Nepal"; */
+
 console.log(address);
 console.log(user.address);
 
-address = {
+/* address = {
   pincode: 2327327,
   country: "Nepal",
 }
 
 console.log(address);
-console.log(user.address);
+console.log(user.address); */
