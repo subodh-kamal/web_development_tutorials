@@ -25,17 +25,17 @@ Expression:
 
 */
 
-// if (5 > 4) {
-//   ("true");
-// } else {
-//   ("false");
-// }
+/* if (5 > 4) {
+  ("true");
+} else {
+  ("false");
+} */
 
 // ---------------------------------------------------------------
 
 /* 
 
-In Chrome DevTools (and most browsers’ consoles), when you type something directly in the console tab, it’s treated like you’re in a JavaScript REPL (Read–Eval–Print Loop).
+In Chrome DevTools (and most browsers’ consoles), when you type something directly in the console tab, it’s treated like you’re in a JavaScript REPL (Read–Eval–Print-Loop).
 
 That means:
 
@@ -46,14 +46,13 @@ Eval → It evaluates the code.
 Print → It displays the result (return value) of the evaluated expression.
 
 Example
-js
-Copy
-Edit
+
 if (true) {
   5;
 } else {
   10;
 }
+
 Here’s what happens:
 
 if (true) → runs the first block.
@@ -64,9 +63,6 @@ Because you’re in the REPL, that value gets printed automatically.
 
 If you were running the same code inside a .js file in a browser or Node, nothing would be printed unless you explicitly used:
 
-js
-Copy
-Edit
 console.log(5);
 Why this is different from console.log:
 
