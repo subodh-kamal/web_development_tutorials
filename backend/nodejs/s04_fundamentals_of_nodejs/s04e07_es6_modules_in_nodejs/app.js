@@ -4,11 +4,11 @@ There are two things:
 1. Module Systems 
 2. Module
 
-Common JS Module System: module.exports object and require function
+1. Common JS Module System: 'module.exports' object and 'require' function
 
-ES6 Module System: import and export
+2. ES6 Module System: 'import' and 'export'
 
-Besides this, there are 3 Other Categories: 
+Besides this, there are 3 main Categories of Modules:
 
 1. Core/Internal/Native Node.js Modules
 2. User Modules
