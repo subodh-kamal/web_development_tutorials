@@ -1,6 +1,8 @@
 /* 
 
-There are two things: 1. Module Systems and 2. Module
+There are two things: 
+1. Module Systems 
+2. Module
 
 Common JS Module System: module.exports object and require function
 
@@ -18,7 +20,7 @@ Besides this, there are 3 Other Categories:
 
 // require("./math.js"); // This is Common JS
 
-import {num} from "./math.js" // This is ES6. And this is named import.
+import {num} from "./math.js" // This is ES6. And this is named import. We can also rename the varaibale here like: import {num: number} from "./math.js"
 
 import num1 from "./math.js"; // This is default import. .mjs extension will also work here. But there is no any validation in Common JS Module System, We can use any random customized extension in CJS.
 
