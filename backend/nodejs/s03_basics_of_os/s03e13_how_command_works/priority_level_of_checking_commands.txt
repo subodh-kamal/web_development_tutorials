@@ -1,0 +1,13 @@
+1. Alias: Bash first checks if the command matches any defined aliases. (like ls)
+
+2. Functions: Next, it checks if the command mathes any defined shell functions.
+
+3. Built-ins Commands: Then, Bash checks if the command is a built-ins shell command (like cd, echo, pwd, etc.).
+
+4. Hash Table: Bash checks its hash table of previously looked-up executables to quickly locate executables.
+
+5. Executable Files: Finally, it searches through the directories listed in the PATH environment variable, in the order they appear, to find an executable file matching the command name. It can be script executable files or binary executable files.
+
+command -> type cd (to check the type of the particular command. Like typeof() function in js to check the data type. )
+
+Jump to timestamp 40:00 to know more about PATH variable.
