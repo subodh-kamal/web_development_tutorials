@@ -22,7 +22,7 @@ console.log(text.toString());
 // const { exec } = require("child_process");
 
 // exec("start chrome"); // one way to start a process
-// // exec("file_path"); // another way to start a process
+// // exec("Replace this text inside the double quote with file_path"); // another way to start a process
 
 // --------------------------------------------------------------------------------------
 
