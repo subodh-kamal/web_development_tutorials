@@ -1,8 +1,10 @@
 const a = 5;
 console.log(a);
+// a goes to the Local variable section
 
 b = 4;
 console.log(b);
+// b goes to the Global variable section
 
 function check() {
     c = 2;
@@ -15,7 +17,3 @@ function checkAgain() {
 }
 
 checkAgain();
- 
-// a goes to the Local variable section
-
-// b goes to the Global variable section
