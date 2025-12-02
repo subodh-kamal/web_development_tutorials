@@ -2,7 +2,7 @@
 // console.log(import.meta.dirname); // We cannot find this in Browser
 // console.log(import.meta.filename); // We cannot find this in Browser
 
-// In browser, we get url as http://.........(Using http protocol) But in Node.js we get like: file://....... ( Using file transfer protocol)
+// In browser, we get url as http://.........(Using http protocol) But in Node.js we get like: file://....... ( Using file transfer protocol(ftp))
 
 import { num } from "./math.js";
 
