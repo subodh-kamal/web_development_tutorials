@@ -4,14 +4,14 @@ There are two things:
 1. Module Systems 
 2. Module
 
-1. Common JS Module System: 'module.exports' object and 'require' function
+1. Common JS Module System (CJS): 'module.exports' object and 'require' function
 
-2. ES6 Module System: 'import' and 'export'
+2. ES6 Module System (ESM): 'import' and 'export'
 
 Besides this, there are 3 main Categories of Modules:
 
 1. Core/Internal/Native Node.js Modules
-2. User Modules
+2. User Modules (These are also referred as internal modules)
 3. NPM/External Modules
 
 */
@@ -28,7 +28,7 @@ console.log(num1);
 
 // We can use both named and default export and import in ES6 Module System in the same file at the same time. For eg;
 
-// import num1, {num} from "./math.js"; // This will work perfectly. Here we are using default import and named import in the same line.
+// import num1, {num} from "./math.js"; // This will work perfectly. Here, we are using default import and named import in the same line.
 
 // We Cannot use multiple 'require' in the same line in Common JS Module System because 'require' is a function and a function can return only one value at a time.
 
