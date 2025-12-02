@@ -1,7 +1,7 @@
 /* 
 Common JS Modules:
 
-1. Modules of CJS reads and loads the file synchronously. It uses main thread.
+1. Modules of CJS loads and reads the file synchronously. It uses main thread.
 2. File extension is optional.
 3. If we provide full path, then we can load any file using cjs.
 4. It is a convention to add .cjs extension in the file name.
@@ -21,7 +21,7 @@ Common JS Modules:
 /* 
 ES6 Modules:
 
-1. Modules of ES6 reads and loads the file asynchronously.
+1. Modules of ES6 loads and reads the file asynchronously.
 2. File extension is mandatory.
 3. We can not load any file, only .js and .mjs files are allowed
 4. It is a convention to add .mjs in the file extention.
