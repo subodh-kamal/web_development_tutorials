@@ -3,11 +3,12 @@ Environment Variables -> Key Value pair of Strings
 
 The variables that we create normally are not environment variables. For eg:
 
-num = 25;
+num = 25; (This is not an env variable)
+export num1 = 26; (This is an env variable)
 
 PS1 is an env variable.
 
-Path is a special variable
+'Path' is a special variable
 
 There are multiple categories of env variables.
 1. User Variables.
