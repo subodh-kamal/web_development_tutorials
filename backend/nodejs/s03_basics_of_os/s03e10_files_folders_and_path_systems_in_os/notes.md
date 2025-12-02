@@ -7,8 +7,8 @@
 - if starts with d , then its a directory
 - if starts with l , then its a symbolic link
 
-- Windows os path is separated by backward slash (\). and \n means go to the next line thats why we need to provide \\ backward slash if using this path system.
-- Linux/Mac os path is separated by forward slash (/).
+- Windows OS path is separated by backward slash ( \ ). and \n means go to the next line that's why we need to provide \\ backward slash if using this path system.
+- Linux/Mac OS path is separated by forward slash ( / ).
 
 ### To get the path in the terminal, run this command:
 1. To get Windows path: run -> cygpath -w "unix/linux path" -> this command will generate Windows path relevant to Unix/Linux path
