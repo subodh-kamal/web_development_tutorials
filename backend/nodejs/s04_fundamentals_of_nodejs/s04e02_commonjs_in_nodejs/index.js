@@ -1,4 +1,4 @@
-// Each file is called a module in node.js And there are different types of module systems in Node.js For eg: Common js module system, ES6 module system
+// Each file is called a module in node.js And there are 2 types of module systems in Node.js For eg: Common js module system(CJS), ES6 module system (ESM) 
 // The return value of require function is module.exports and math.exports is an object.
 
 // console.log(typeof require); // output: function
