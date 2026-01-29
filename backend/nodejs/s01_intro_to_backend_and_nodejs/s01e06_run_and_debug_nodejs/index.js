@@ -8,7 +8,9 @@ const text = fs.readFileSync(
 
 console.log(text.toString());
 
-console.log(global); // this will run in nodejs only
-console.log(globalThis); // this will run in both website and nodejs
+//////////////////////////////////////////////////////////////////////////////////////////////////
+
+console.log(global); // this will run in nodejs only. This is equivalent to 'window' object in browser.
+console.log(globalThis); // this is common in both website and nodejs. This will point out to 'window' object in browser, and 'global' object in Node.js
 
 console.log("Program Ended");
