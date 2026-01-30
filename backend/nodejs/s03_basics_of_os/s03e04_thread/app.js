@@ -1,17 +1,22 @@
 /* console.time();
 
-for (let i = 0; i < 10000000000; i++) {
-  if (i % 4000000000 == 0) {
+console.log("Printing loop first");
+for (let i = 0; i < 1000000000; i++) {
+  if (i % 400000000 == 0) {
     console.log(`Running loop 1: ${i}`);
   }
 }
-for (let i = 0; i < 10000000000; i++) {
-  if (i % 4000000000 == 0) {
+
+console.log("Printing loop second");
+for (let i = 0; i < 1000000000; i++) {
+  if (i % 400000000 == 0) {
     console.log(`Running loop 2: ${i}`);
   }
 }
-for (let i = 0; i < 10000000000; i++) {
-  if (i % 4000000000 == 0) {
+
+console.log("Printing loop third");
+for (let i = 0; i < 1000000000; i++) {
+  if (i % 400000000 == 0) {
     console.log(`Running loop 3: ${i}`);
   }
 }
@@ -50,7 +55,7 @@ Concepts/Jargons in OS
 - What is Thread
 - Can a process exist without a thread
 - Context Switching
-- Concurency vs Parallelism\
+- Concurency vs Parallelism
 - Memory (RAM)
 - Storage (ROM)
 - Environment Variables
