@@ -11,8 +11,8 @@
 - Linux/Mac OS path is separated by forward slash ( / ).
 
 ### To get the path in the terminal, run this command:
-1. To get Windows path: run -> cygpath -w "unix/linux path" -> this command will generate Windows path relevant to Unix/Linux path
-2. To get Unix/Linux path: run -> cygpath -u "Windows path" -> this command will generate Unix/Linux path relevant to Windows path
+1. To get Windows path: run -> cygpath -w "paste unix/linux path here" -> this command will generate Windows path relevant to Unix/Linux path
+2. To get Unix/Linux path: run -> cygpath -u "paste Windows path here" -> this command will generate Unix/Linux path relevant to Windows path
 
 - ~ -> This represents home folder.
 - / -> This represents root folder.
