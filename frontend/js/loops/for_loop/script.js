@@ -1,35 +1,34 @@
-/*
-
-for(initialization; condition; afterthought(or update)){
+/* for(initialization; condition; afterthought(or update)){
     statement
 }  
+ */
 
-// ------------------------------------------
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-for (var i = 1; i <= 3; i++) {
+/* for (var i = 1; i <= 3; i++) {
   setTimeout(() => {
     console.log(i);
   }, 1000);
 }
-*/
+ */
 // ChatGPT how to fix this issue by providing this code as a prompt.
 
-// --------------------------------------------------------------------
+////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-// for (let i = 1; i <= 3; i++) {
-//   setTimeout(() => {
-//     console.log(i);
-//   }, 1000);
-// }
-
+/* for (let i = 1; i <= 3; i++) {
+  setTimeout(() => {
+    console.log(i);
+  }, 1000);
+}
+ */
 // ---------------------------------------------------------------------------------------------
 
 // below code will not throw any error because for is special case and we need not to use block like {}.
 
-// for (let i = 1; i <= 3; i++)
-//   setTimeout(() => {
-//     console.log(i);
-//   }, 1000);
+/* for (let i = 1; i <= 3; i++)
+  setTimeout(() => {
+    console.log(i);
+  }, 1000); */
 
 // -------------------------------------------------------------------------------------------
 
@@ -40,15 +39,16 @@ for (var i = 1; i <= 3; i++) {
 // if (true) let a = 5; // error because it is block scoped.
 
 // -----------------------------------------
-// const array = [];
 
-// for (let i = 1; i <= 3; i++) {
-//   const callback = () => {
-//     console.log(i);
-//   };
-//   array.push(callback);
-//   setTimeout(callback, 1000);
-// }
+/* const array = [];
+
+for (let i = 1; i <= 3; i++) {
+  const callback = () => {
+    console.log(i);
+  };
+  array.push(callback);
+  setTimeout(callback, 1000);
+} */
 
 // ------------------------------------------------------------------------------------------
 
@@ -60,25 +60,25 @@ for (var i = 1; i <= 3; i++) {
 
 //------------------------------------------------------------------------------------------
 
-// for (let i = 0, getI = () => i; i < 3; i++) {
-//   console.log(getI());
-// }
+/* for (let i = 0, getI = () => i; i < 3; i++) {
+  console.log(getI());
+} */
 // Logs 0, 0, 0
 
 //-------------------------------------------------------------------------------
 
-// for (let i = 0, getI = () => i; i < 3; i++, getI = () => i) {
-//   console.log(getI());
-// }
+/* for (let i = 0, getI = () => i; i < 3; i++, getI = () => i) {
+  console.log(getI());
+} */
 // Logs 0, 1, 2
 
 // ----------------------------------------------------------------------------------------
 
-for (
+/* for (
   let i = 0, getI = () => i, incrementI = () => i++;
   getI() < 3;
   incrementI()
 ) {
   console.log(i);
-}
+} */
 // Logs 0, 0, 0

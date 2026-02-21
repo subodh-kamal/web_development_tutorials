@@ -1,4 +1,5 @@
 # Categorization of Numbers in Mathematics
+## These categories are based on Decimal Number System.
 
 [Types of Numbers](https://www.youtube.com/watch?v=WxXZaP8Y8pI)
 

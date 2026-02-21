@@ -14,9 +14,9 @@ async function makeRequest() { // by using async, promise is by default resolved
 
 async function makeRequest() {
   const api1 = fetch("https://dummyjson.com/users");
-  api1.then((res) => res.json()).then((data) => console.log(data));
+  api1.then((res) => res.json()).then((data) => console.log(data)); // This code will run at last
 
-  console.log("fetch program");
+  console.log("fetch program"); // This code will run first
 }
 
 makeRequest();
@@ -39,10 +39,11 @@ async function makeSecondReq() {
 
   console.log(data); // This code will run first
   console.log("await program"); // This code will run later
-
 }
 
 makeSecondReq();
+
+console.log(5);
 
 // ---------------------------------------------------------------------------------------------------------
 
@@ -51,8 +52,10 @@ makeSecondReq();
 - async gives resolved promise
 - await also gives resolved promise
 - await seems like working synchronously but it actually works asynchronously and also works like .then
-- await is only valid in async function and top-level module. For eg: type="module" in script tag.
+- await is only valid in async function and top-level bodies of module. For eg: type="module" in script tag or {"type": "module"} in package.json.
 
 *******To handle error in async await, we use try and catch.
 
 */
+
+// ----------------------------------------------------------------------------------------------------------

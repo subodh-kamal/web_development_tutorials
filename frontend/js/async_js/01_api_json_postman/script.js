@@ -15,3 +15,20 @@ document.addEventListener("keyup", (event) => {
     fetchDog();
   }
 });
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+let userData;
+
+fetch('https://jsonplaceholder.typicode.com/todos/1')
+      .then(response => response.json())
+      .then(json => {
+        console.log("one");
+        console.log(json)
+        console.log("two");
+        userData = json;
+      })
+
+// fetch is an asynchronous code.
+
+console.log("Outside");

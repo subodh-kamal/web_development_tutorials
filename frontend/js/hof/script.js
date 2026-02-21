@@ -14,17 +14,18 @@ A Higher-Order Function (HOF) is a function that either:
 
 // ✅ Simple Example:
 
-// function greet(name) {
-//   return `Hello, ${name}!`;
-// }
+function greet(name) {
+  return `Hello, ${name}!`;
+}
 
-// function processUserInput(callback) {
-//   const name = "Subodh";
-//   console.log(callback(name));
-// }
+function processUserInput(callback) {
+  const name = "Subodh";
+  // console.log("1", callback(name));
+  return callback(name)
+}
 
 // processUserInput(greet); // Output: Hello, Subodh!
-// console.log(processUserInput(greet)); // Output: Hello, Subodh! and undefined
+console.log(processUserInput(greet)); // Output: Hello, Subodh! and undefined
 
 // Here, processUserInput is a HOF because it takes another function (greet) as an argument.
 
@@ -51,14 +52,22 @@ A Higher-Order Function (HOF) is a function that either:
 
 // ✅ Returning a Function (Another form of HOF):
 
-function multiplyBy(factor) {
+// This code is a classic example of closures in JavaScript.
+
+// 🔹 What this code does
+
+// It creates a function that can remember a value (factor) and use it later.
+
+// It creates a function that always multiplies by 2.
+
+/* function multiplyBy(factor) {
   return function (num) {
     return num * factor;
   };
 }
 
 const double = multiplyBy(2);
-console.log(double(5)); // 10
+console.log(double(5)); // 10 */
 
 // ------------------------------------------------------------------------------------------
 

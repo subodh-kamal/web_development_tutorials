@@ -95,17 +95,17 @@ const blockingBtn = document.querySelector(".blocking-btn");
 blockingBtn.addEventListener("click", () => {
   const startTime = Date.now();
   let currentTime = startTime;
-  console.log(startTime);
-  console.log(currentTime);
+  console.log("startTime before while loop:", startTime);
+  console.log("currentTime before while loop:", currentTime);
 
   let count = 0;
 
-  while (startTime + 2000 > currentTime) {
+  while (startTime + 4000 > currentTime) {
     currentTime = Date.now();
     count++;
     console.log("Loop ran:", count, "times");
-    console.log(startTime);
-    console.log(currentTime);
+    console.log("startTime of while loop:", startTime);
+    console.log("currentTime of while loop:", currentTime);
   }
 });
 
