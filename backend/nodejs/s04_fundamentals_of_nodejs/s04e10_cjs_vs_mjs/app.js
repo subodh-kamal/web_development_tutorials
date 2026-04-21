@@ -13,7 +13,6 @@ Common JS Modules:
 10. dirname and filename can be accessed with the code: __dirname and __filename
 11. strict mode is not enabled by default.
 
-
 */
 
 // Both module system uses main thread for execution.
@@ -32,6 +31,5 @@ ES6 Modules:
 9. Multiple values can be exported.
 10. dirname and filename can be accessed with the code: import.meta.dirname and import.meta.filename
 11. strict mode is enabled by default.
-
 
 */

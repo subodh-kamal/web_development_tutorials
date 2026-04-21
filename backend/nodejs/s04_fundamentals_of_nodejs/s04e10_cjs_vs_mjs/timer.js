@@ -1,7 +1,6 @@
-console.log("timer.js code");
+console.log("Running timer.js");
 
-export default "timer";
-
+export default "Timer";
 // These things are not equal. Because, left side is CJS and right side is ESM
 
 // exports !== export
