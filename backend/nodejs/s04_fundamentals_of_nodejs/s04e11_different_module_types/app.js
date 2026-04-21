@@ -1,8 +1,8 @@
-// 1. Native Modules or Core Modules or Node.js Modules. No need to provide extention . All the below module codes are written in binary form in node.exe file that we have downloaded while downloading the node application.
+// 1. Native Modules | Core Modules | Internal Modules | Node.js Modules. No need to provide extention . All the below module codes are written in binary form in node.exe file that we have downloaded while downloading the node application.
 
 // import fs from "fs"; // We can write this code as:
 import fs from "node:fs"; // fs module is used for handling files. fs module is an Object.
-import net from "node:net"; // We provide node: to indiacate that it is the core module of Node.
+import net from "node:net"; // We provide node: to explicitly indiacate that it is the core module of Node.
 import dgram from "node:dgram"; // to build UDP servers
 import http from "node:http";
 import https from "node:https";
@@ -21,5 +21,5 @@ import { num } from "./math.js";
 
 // ---------------------------------------------------------------------------------------------------
 
-// NPM Modules.
+// 3. NPM Modules.
 import axios from "axios"; // We do not need to provide path here same as core node modules.
