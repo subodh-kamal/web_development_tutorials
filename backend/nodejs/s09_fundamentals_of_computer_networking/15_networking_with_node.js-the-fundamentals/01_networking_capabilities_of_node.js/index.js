@@ -6,6 +6,5 @@ import dns from "node:dns";
 
 import os from "node:os";
 
-const networkInterface = os.networkInterfaces();
-
-console.log(networkInterface);
+console.log(os.networkInterfaces());
+console.log(os.availableParallelism());
