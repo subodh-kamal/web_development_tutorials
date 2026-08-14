@@ -10,10 +10,10 @@ PS1 is an env variable.
 
 'Path' is a special variable
 
-There are multiple categories of env variables.
+There are multiple categories of env variables. Some of them are:
 1. User Variables.
 2. System Variables.
-3. Process Variables.
+3. Process Variables. and many more...
 
 type 'env' or 'printenv' in the terminal to check the environment variables of the particular terminal process.
 
