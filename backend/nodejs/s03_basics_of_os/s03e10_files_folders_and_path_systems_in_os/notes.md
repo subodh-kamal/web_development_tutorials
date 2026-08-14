@@ -3,9 +3,9 @@
 2. Relative path -> Relevant short path
 
 ### Linux files and folders representation:
-- if starts with - , then its a file
-- if starts with d , then its a directory
-- if starts with l , then its a symbolic link
+- if starts with '**-**' , then its a file
+- if starts with '**d**' , then its a directory
+- if starts with '**l**' , then its a symbolic link
 
 - Windows OS path is separated by backward slash ( \ ). and \n means go to the next line that's why we need to provide \\ backward slash if using this path system.
 - Linux/Mac OS path is separated by forward slash ( / ).
@@ -16,3 +16,5 @@
 
 - ~ -> This represents home folder.
 - / -> This represents root folder.
+
+*** File is the main thing to deal with in coding or in Node.js ***
