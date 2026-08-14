@@ -3,7 +3,7 @@ module.exports = 598;
 console.log(module.isPreloading);
 
 /* 
-Run this code to preload the module and you will get 'true' output.
+Run this code in your terminal to preload the module and you will get 'true' output.
 
 node --require ./math.js index.js
 
