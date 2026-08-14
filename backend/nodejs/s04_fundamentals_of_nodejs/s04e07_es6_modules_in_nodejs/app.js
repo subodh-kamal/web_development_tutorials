@@ -1,7 +1,7 @@
 /* 
 
 There are two things: 
-1. Module Systems 
+1. Module Systems (We have 2 types of module system i.e., 1. CJS module system and 2. ES6 module system)
 2. Module
 
 1. Common JS Module System (CJS): 'module.exports' object and 'require' function
