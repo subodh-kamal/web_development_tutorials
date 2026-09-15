@@ -1,3 +1,5 @@
+// async and await are keywords
+
 /*
 
 async function makeRequest() { // by using async, promise is by default resolved. And, we are converting a synchronous function into an asynchronous function by using 'async' keyword.
